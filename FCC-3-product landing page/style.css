@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+#header {
+  background-color: #064232;
+  font-family: "Passion One", cursive;
+  letter-spacing: 1px;
+}
+#header img {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#header span {
+  color: #f7f3f4;
+  font-size: 36px;
+  margin-left: 15px;
+}
+#nav-bar {
+  float: right;
+}
+#nav-bar ul {
+  list-style-type: none;
+  text-align: right;
+}
+#nav-bar ul li {
+  display: inline-block;
+  margin: 30px 15px 0px 0px;
+}
+#nav-bar ul li a {
+  text-decoration: none;
+  border: 3px solid #ff7900;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+#nav-bar ul li a:hover {
+  background-color: #ff7900;
+  color: #f7f3f4;
+}
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#inner-content {
+  background-color: #0084a3;
+  color: #ced7da;
+  padding: 10px 20px;
+  line-height: 35px;
+}
+#inner-content h2 {
+  color: #c0cf4d;
+}
+#main-content {
+  background-color: #064232;
+}
+#main-content h1 {
+  text-align: center;
+  color: #ff7900;
+  text-shadow: 5px 15px 5px chocolate;
+}
+#video {
+  max-width: 100%;
+}
+#jersey {
+  max-width: 1350px;
+  border: 20px solid #064232;
+  background-color: blanchedalmond;
+  margin: 5px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+  grid-gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+#jersey > div {
+  margin: 0px auto;
+}
+#jersey > div > figure {
+  width: 550px;
+  max-width: 100%;
+  height: 300px;
+  border: 5px solid #0084a3;
+  background-color: #cbf3f0;
+}
+
+#jersey img {
+  border-right: 3px solid red;
+  max-width: 100%;
+}
+#jersey figcaption {
+  text-align: center;
+  padding: 5px;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.italy-home figcaption {
+  background-color: #004285;
+  color: #ddd2e2;
+}
+.italy-away figcaption {
+  background-color: #ddd2e2;
+  color: #004285;
+}
+.england-home figcaption {
+  background-color: #d2cecf;
+  color: #1560b2;
+}
+.england-away figcaption {
+  background-color: #1560b2;
+  color: #d2cecf;
+}
+.germany-home figcaption {
+  background-color: #f3f3f3;
+  border-top: 2px solid;
+  color: #000000;
+}
+.germany-away figcaption {
+  background-color: #000000;
+  color: #f3f3f3;
+}
+.france-home figcaption {
+  background-color: #303d57;
+  color: #fefefe;
+}
+.france-away figcaption {
+  background-color: #fefefe;
+  color: #303d57;
+}
+.spain-home figcaption {
+  background-color: #b1102f;
+  color: #ccccce;
+}
+.spain-away figcaption {
+  background-color: #ccccce;
+  color: #b1102f;
+}
+.portugal-home figcaption {
+  background-color: #641314;
+  color: #d9edee;
+}
+.portugal-away figcaption {
+  background-color: #d9edee;
+  color: #641314;
+}
+#jersey span {
+  float: right;
+  padding-top: 5px;
+  padding-right: 3px;
+  padding-left: 3px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff7900;
+  letter-spacing: 1px;
+}
+#top-sell {
+  background-color: #cbf3f0;
+  display: flex;
+}
+#top3 {
+  background-color: blanchedalmond;
+  padding: 10px;
+  flex: 1;
+}
+#top3 h2 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-bottom: 10px;
+}
+#top3 > img {
+  display: block;
+  border: 3px solid red;
+  margin: 0px auto;
+}
+#top3 > figcaption {
+  text-align: center;
+  font-size: 22px;
+  color: #0084a3;
+}
+#form-section {
+  flex: 1;
+  padding: 20px;
+}
+#form p {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn {
+  border: 3px solid #ff7900;
+  padding: 4px 12px;
+  font-size: large;
+  font-weight: bolder;
+  color: deepskyblue;
+  background-color: #064232;
+}
+.btn:hover {
+  background-color: #ff7900;
+  color: #f7f3f4;
+}
+footer {
+  background-color: #5f654e;
+  padding: 15px;
+  color: chartreuse;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #nav-bar {
+    width: 100%;
+    background-color: #064232;
+    padding-bottom: 25px;
+  }
+  #nav-bar ul {
+    text-align: center;
+  }
+  #nav-bar ul li {
+    display: block;
+    line-height: 32px;
+  }
+  #nav-bar ul li a {
+    padding: 10px 70px;
+    font-size: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    color: deepskyblue;
+  }
+  #top-sell {
+    display: flex;
+    flex-direction: column;
+  }
+}
